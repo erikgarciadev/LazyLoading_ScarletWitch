@@ -5,7 +5,7 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: '',
+    baseUrl: './',
     out:'build/docs',
     metaUrlPath:'snowpack'
   },
