@@ -1,0 +1,82 @@
+@import 'tailwindcss/dist/base.css';
+@import 'tailwindcss/dist/components.css';
+@import 'tailwindcss/dist/utilities.css';
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.gradient {
+    background: linear-gradient(to right, #eee 20%, #ddd 50%, #eee 80%);
+   background-size: 500px 300px;
+   animation: movinggradient 0.8s linear infinite forwards;
+}
+
+@keyframes movinggradient {
+    0%{
+       background-position: -100% 0%;
+    }
+    100%{
+    background-position: 0% 100%;
+    }
+}
+
+button{
+    background-color: purple;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    transform:  scale(1.1);
+}
+
+button:focus{
+    outline:  0px;
+}
+
+
+.shadow {
+    -webkit-box-shadow: -11px 7px 13px 3px rgba(115,27,115,0.62);
+    -moz-box-shadow: -11px 7px 13px 3px rgba(115,27,115,0.62);
+    box-shadow: -11px 7px 13px 3px rgba(115,27,115,0.62);
+    transition: all .2s ease-in-out;
+}
+
+.shadow:hover{
+    transform:  scale(1.1);
+}
+
+body{
+    background: black;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    background-color: transparent;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: darkgrey;
+  }
