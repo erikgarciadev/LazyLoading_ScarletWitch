@@ -1,6 +1,6 @@
-@import "../snowpack/pkg/tailwindcss/dist/base.css";
-@import "../snowpack/pkg/tailwindcss/dist/components.css";
-@import "../snowpack/pkg/tailwindcss/dist/utilities.css";
+@import "./snowpack/pkg/tailwindcss/dist/base.css";
+@import "./snowpack/pkg/tailwindcss/dist/components.css";
+@import "./snowpack/pkg/tailwindcss/dist/utilities.css";
 
 .loader {
     border: 16px solid #f3f3f3;
