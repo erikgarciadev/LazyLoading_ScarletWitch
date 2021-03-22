@@ -1,3 +1,8 @@
+# Project LazyLoading-ScarletWitch
+
+Implementation LazyLoading for Load Image when intersecting with viewport.
+
+- [Live demo](https://erik-gt-97.github.io/LazyLoading_ScarletWitch/index.html)
 # Snowpack Tailwind
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
@@ -17,14 +22,6 @@ npx create-snowpack-app my-app --template snowpack-template-tailwind
 It bootstraps this template into a new folder called `my-app/`.
 
 ✨ Every commit pushed to your `main` branch will autopublish the site on GitHub Pages.
-
-
-#### Optional install using Yarn:
-
-```sh
-npx create-snowpack-app my-app --template snowpack-template-tailwind --use-yarn
-```
-
 
 
 ## Features

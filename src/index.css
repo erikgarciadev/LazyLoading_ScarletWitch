@@ -52,6 +52,7 @@ button:focus{
 
 
 .shadow {
+    width: 400px;
     -webkit-box-shadow: -11px 7px 13px 3px rgba(115,27,115,0.62);
     -moz-box-shadow: -11px 7px 13px 3px rgba(115,27,115,0.62);
     box-shadow: -11px 7px 13px 3px rgba(115,27,115,0.62);
@@ -70,13 +71,25 @@ body::-webkit-scrollbar {
     width: 10px;
     height: 5px;
     background-color: transparent;
-  }
+}
    
-  body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  }
+}
    
-  body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: darkgrey;
-  }
+}
+
+@media (max-width: 480px) {
+
+   .container {
+       width: 100%;
+      
+   }
+
+   .container .shadow{
+       width: 100%;
+   }
+}
