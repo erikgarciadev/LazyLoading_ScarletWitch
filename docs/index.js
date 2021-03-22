@@ -7,17 +7,17 @@ const random = () => Math.floor(Math.random() * (maximum - minimum)) + minimum
 const createImageNode = () => {
 
     const container = document.createElement('div')
-    container.className = 'p-5'
+    container.className = 'p-5 container'
 
     const wrapper = document.createElement('div')
     wrapper.className = 'gradient mx-auto'
     wrapper.style.minHeight = '300px'
-    wrapper.style.width = '400px'
+    // wrapper.style.width = '400px'
     wrapper.style.borderRadius= '10px'
 
     const image = document.createElement('img')
     image.className = 'mx-auto'
-    image.width = 400
+    image.style.width = '100%'
     image.style.minHeight = '400px'
     image.style.objectFit ='cover'
     image.style.borderRadius = '10px'
